@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_count_articles",
+  "info": {
+    "displayName": "article"
+  },
+  "options": {},
+  "attributes": {
+    "view": {
+      "type": "integer"
+    },
+    "comment": {
+      "type": "integer"
+    },
+    "like": {
+      "type": "integer"
+    }
+  }
+}

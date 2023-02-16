@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articles",
+  "info": {
+    "singularName": "article",
+    "pluralName": "articles",
+    "displayName": "Article",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "author": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::author.author",
+      "inversedBy": "articles"
+    },
+    "info": {
+      "type": "component",
+      "repeatable": false,
+      "component": "count.article"
+    },
+    "image": {
+      "type": "string"
+    },
+    "article_tags": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article-tag.article-tag"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "article",
+        "ad"
+      ],
+      "default": "article"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "post_datas",
+  "info": {
+    "singularName": "post-data",
+    "pluralName": "post-datas",
+    "displayName": "PostData"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banners": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banner.banner"
+    },
+    "articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "main_navs",
+  "info": {
+    "singularName": "main-nav",
+    "pluralName": "main-navs",
+    "displayName": "MainNav",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "tag": {
+      "type": "string"
+    },
+    "order": {
+      "type": "integer",
+      "min": 1,
+      "default": 1,
+      "unique": false
+    },
+    "types": {
+      "type": "enumeration",
+      "enum": [
+        "nav",
+        "img",
+        "shop",
+        "other"
+      ],
+      "default": "nav",
+      "required": true
+    }
+  }
+}

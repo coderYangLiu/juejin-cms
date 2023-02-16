@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_home_buttons",
+  "info": {
+    "displayName": "button"
+  },
+  "options": {},
+  "attributes": {
+    "slogan": {
+      "type": "string"
+    }
+  }
+}

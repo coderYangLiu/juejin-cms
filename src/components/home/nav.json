@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_home_navs",
+  "info": {
+    "displayName": "nav",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "path": {
+      "type": "string",
+      "required": false
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "nav",
+        "img",
+        "other"
+      ],
+      "default": "nav"
+    },
+    "order": {
+      "type": "integer",
+      "max": 10,
+      "min": 1,
+      "default": 1
+    },
+    "tag": {
+      "type": "string"
+    }
+  }
+}

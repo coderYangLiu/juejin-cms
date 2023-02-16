@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_navs",
+  "info": {
+    "singularName": "home-nav",
+    "pluralName": "home-navs",
+    "displayName": "HomeNav",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "subNav": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.nav"
+    },
+    "path": {
+      "type": "string"
+    },
+    "badge": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

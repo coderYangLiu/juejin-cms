@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_datas",
+  "info": {
+    "singularName": "home-data",
+    "pluralName": "home-datas",
+    "displayName": "HomeData"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.button"
+    },
+    "banners": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banner.banner"
+    },
+    "authors": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::author.author"
+    }
+  }
+}

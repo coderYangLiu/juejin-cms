@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_user_infos",
+  "info": {
+    "displayName": "info"
+  },
+  "options": {},
+  "attributes": {
+    "rank": {
+      "type": "enumeration",
+      "enum": [
+        "https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/img/lv-5.d08789d.png",
+        "https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/img/lv-3.7938ebc.png"
+      ],
+      "default": "https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/img/lv-3.7938ebc.png"
+    },
+    "jueyouLevel": {
+      "type": "enumeration",
+      "enum": [
+        "https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/65a6a28f15d70e5a77bf881c5ec5340d.svg"
+      ],
+      "default": "https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web/65a6a28f15d70e5a77bf881c5ec5340d.svg"
+    }
+  }
+}
